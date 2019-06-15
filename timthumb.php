@@ -27,7 +27,7 @@ if(! defined('ALLOW_EXTERNAL') ){
 }
 //允许获取所有外部站点url
 if(! defined('ALLOW_ALL_EXTERNAL_SITES') ){
-  define ('ALLOW_ALL_EXTERNAL_SITES', TRUE);
+  define ('ALLOW_ALL_EXTERNAL_SITES', false);
 }
 //启用文件缓存
 if(! defined('FILE_CACHE_ENABLED') ){
